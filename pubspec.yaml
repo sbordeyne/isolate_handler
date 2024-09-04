@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_isolate: ^2.0.3
+  flutter_isolate:
+    git:
+      url: https://github.com/FlutterStudioIst/flutter_isolate
+      ref: 99a1f5517c8f20582f50ffa069561152db4bc0ea
 
 dev_dependencies:
   flutter_test:
